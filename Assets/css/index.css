@@ -19,10 +19,19 @@ main{
     
     
     
+    
 }
 nav{
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav button{
+    margin-top: 10px;
+    
+
+    
 }
 .category{
     height: 120px;
@@ -122,7 +131,7 @@ nav{
     scrollbar-width: none;
 }
 .mix-profile img{
-    position: absolute;
+    
     top: 0;
     height: 50px;
     width: 50px;
@@ -155,10 +164,24 @@ footer button{
     
     
 }
+nav button{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(145, 141, 141, 0);
+    margin-left: 12px;
+    margin-bottom: 12px;
+    border: none;
+}
+nav button:hover{
+    transform: scale(1.2);
+    color: white;
+}
 footer button:hover{
     transform: scale(1.2);
+    color: white !important;
 }
+/* buttons icons styling*/
 i{
     font-size: 35px !important;
-    color: white;
+    color: rgb(228, 226, 226);
 }
