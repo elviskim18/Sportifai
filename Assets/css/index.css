@@ -22,7 +22,7 @@ main{
     
 }
 nav{
-    height: 100px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -34,12 +34,14 @@ nav button{
     
 }
 .category{
-    height: 120px;
-    margin: 8px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
     overflow-x: auto;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
     
 }
 /*Add scroll bar in chrome*/
@@ -52,11 +54,21 @@ nav button{
     scrollbar-width: none;
 }
 .category button{
-    width: 200px;
-    height: 50px;
+    padding: 2px 30px;
+    height: 40px;
     border-radius: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    background-color: rgba(65, 65, 70, 0.774);
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.category button.active {
+    background-color: white;
+    color: black;
+
 }
 .Fav-Artist{
     width: 100%;
@@ -164,6 +176,7 @@ footer button{
     
     
 }
+/*top nav buttons stylying*/
 nav button{
     width: 50px;
     height: 50px;
@@ -184,4 +197,7 @@ footer button:hover{
 i{
     font-size: 35px !important;
     color: rgb(228, 226, 226);
+}
+nav i{
+    font-size: 30px !important;
 }
