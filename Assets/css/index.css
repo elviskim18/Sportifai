@@ -39,7 +39,7 @@ nav{
 }
 .Fav-Artist{
     width: 100%;
-    height: 35%;
+    height: 200px;
     border: solid 1px rgba(239, 240, 238, 0.39);
     border-radius: 12px;
     display: grid;
@@ -47,6 +47,17 @@ nav{
     overflow: hidden;
     grid-gap: 12px;
     margin-bottom: 12px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+/*Add scroll bar in chrome*/
+.Fav-Artist::-webkit-scrollbar{
+    display: none;
+}
+/*Add scroll bar in firefox*/
+.Fav-Artist{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 .artist-profile{
     margin-top: 12px;
