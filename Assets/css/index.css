@@ -1,0 +1,77 @@
+main{
+    width: 428px;
+    height: 926px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+}
+.container{
+    margin: 12px;
+}
+nav{
+    height: 100px;
+    width: 100%;
+}
+.category{
+    height: 120px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: auto;
+    
+}
+/*Add scroll bar in chrome*/
+.category::-webkit-scrollbar{
+    display: none;
+}
+/*Add scroll bar in firefox*/
+.category{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.category button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.Fav-Artist{
+    width: 100%;
+    height: 35%;
+    border: solid 1px rgba(239, 240, 238, 0.39);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+    grid-gap: 12px;
+    margin-bottom: 12px;
+}
+.artist-profile{
+    margin-top: 12px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+  
+
+}
+
+.artist-profile img{
+    position: absolute;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin:0 auto;
+    
+    
+}
+.artist-profile h4{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+   
+}
