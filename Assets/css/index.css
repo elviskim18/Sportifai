@@ -9,10 +9,14 @@ main{
     background-color: black;
     margin: 0 auto;
     color: white;
+    position: relative;
+
+    
+
 }
 .container{
     margin: 12px;
-    position: relative;
+    
     
     
 }
@@ -129,22 +133,32 @@ nav{
 
 
 
-footer{
+.footer{
    
-    position: fixed;
-    bottom:13px;
-    width:auto;
-    background-color: rgb(168, 101, 101);
-justify-content: space-between;
+    position: absolute;
+    margin-bottom: 12px;
+    margin: 0;
+    bottom:0;
+    width:90%;
     display: flex;
-    
+    flex-direction: row;
     justify-content: space-between;
+    
 }
 footer button{
     width: 50px;
     height: 50px;
+    background-color: rgba(145, 141, 141, 0);
+    margin-left: 12px;
+    margin-bottom: 12px;
+    border: none;
+    
     
 }
 footer button:hover{
-    
+    transform: scale(1.2);
+}
+i{
+    font-size: 35px !important;
+    color: white;
 }
