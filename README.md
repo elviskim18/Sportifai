@@ -1,3 +1,3 @@
 ## Screenshot
 ### design prototype
-![image](/assets/images/design.png)
+![image](/Assets/images/design.png)
