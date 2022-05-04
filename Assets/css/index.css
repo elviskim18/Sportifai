@@ -101,6 +101,7 @@ nav button{
 .card h4{
     margin-top: 0;
     font-size: 18px;
+    font-weight: 100;
 }
 .artist-section{
     height: 350px;
@@ -109,6 +110,7 @@ nav button{
 }
 .artist-section h2{
     margin-bottom: 0px;
+    font-weight: 400;
     
 }
 .artist-profile{
