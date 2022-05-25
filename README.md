@@ -7,5 +7,5 @@
 
 ***
 ## Authors
-[Elvis Kimani](https://github.com/elviskim18)
-[Bukosia Ebenezar](https://github.com/Ebenezr)
+- [Elvis Kimani](https://github.com/elviskim18)
+- [Bukosia Ebenezar](https://github.com/Ebenezr)
