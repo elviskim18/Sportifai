@@ -1,3 +1,11 @@
+## Spotifai
+    Spotifai clone
 ## Screenshot
-### design prototype
-![image](/Assets/images/design.png)
+![image](/Assets/images/screenshot.png)
+***
+## Figma link
+
+***
+## Authors
+[Elvis Kimani](https://github.com/elviskim18)
+[Bukosia Ebenezar](https://github.com/Ebenezr)
